@@ -1,0 +1,418 @@
+/* Start of Stylesheet */
+
+#salon_logo {
+	max-width: 350px;
+	float: left;
+	padding-left: 20px;
+}
+
+#menu {
+	margin-top: 32px;
+	margin-right: 25px;
+}
+
+nav {
+	float: left;
+	margin-top: 40px;
+}
+
+nav ul {
+	margin-left: 65px;
+}
+
+nav li {
+	display: inline;
+}
+
+ul a {
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 20px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul li a:hover {
+	background-color: #B02428;
+}
+
+/*Social Icons */
+
+#social_icons {
+	padding-top: 65px;
+}
+
+#social_icons img {
+	height: 30px;
+}
+
+/* above the fold box */
+
+#bg_image {
+	margin-top: 26px;
+	background-color: white;
+	background-image: url("../images/hair.jpg"); 
+	height: 560px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#square_one {
+	background-color: #DAA873;
+	height: 150px;
+	width: 275px;
+	margin-left: 110px;
+	float: left;
+	margin-top: 105px;
+	opacity: .75;
+	color: white;
+}
+
+#square_one h1 {
+	font-size: 24px;
+	margin-left: 25px;
+	margin-top: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+#square_one h2 {
+	font-size: 15px;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+#square_two {
+	background-color: #6C5A46;
+	height: 150px;
+	margin-top: 105px;
+	width: 275px;
+	margin-left: 40px;
+	float: left;
+	opacity: .75;
+	color: white;
+}
+
+#square_two h1 {
+	font-size: 24px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#square_two h2 {
+	font-size: 15px;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+#square_three {
+	background-color: #58482E;
+	height: 150px;
+	margin-top: 35px;
+	width: 475px;
+	margin-left: 150px;
+	float: left;
+	opacity: .75;
+	text-align: center;
+}
+
+#square_three h1 {
+	position: relative;
+	top: 35%;
+	color: white;
+	font-size: 35px;
+}
+
+#square_three h1 a {
+	color: white;
+	text-decoration: none;	
+}
+
+
+/* box 2 */
+#box_two {
+	height: 360px;
+	width: 100%;
+}
+
+#mission h1 {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 53px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+#mission blockquote{
+	display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#box_two p {
+	padding: 22px;
+	line-height: 36px;
+}
+
+blockquote span {
+	font-size: 40px;
+	font-style: italic;
+}
+
+/* box 3 */
+
+#box_three {
+	margin-top: 6px;
+	background-color: white;
+	background-image: url("../images/store.jpg"); 
+	height: 620px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box_three {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 53px;
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+}
+
+#prod_square_one {
+	background-color: #A0A193;
+	height: 350px;
+	width: 305px;
+	margin-left: 80px;
+	float: left;
+	margin-top: 65px;
+	opacity: .75;
+	color: white;
+}
+
+#prod_square_one h2{
+	background-color: white;
+	margin-top: 215px;
+	height: 33px;
+}
+
+#prod_square_one h3{
+	background-color: white;
+	margin-top: 48px;
+	height: 30px;
+}
+
+#prod_square_two {
+	background-color: #DAA873;
+	height: 350px;
+	margin-top: 65px;
+	width: 305px;
+	margin-left: 95px;
+	float: left;
+	opacity: .75;
+	color: white;
+	font-size: 30px;
+}
+
+#prod_square_two h1{
+	position: relative;
+	top: 10%;
+}
+
+#prod_square_two h2{
+	background-color: white;
+	margin-top: 90px;
+}
+
+#prod_square_two h3{
+	background-color: white;
+	margin-bottom: auto;
+	margin-top: 50px;
+}
+
+#prod_square_three {
+	background-color: #A0A193;
+	height: 350px;
+	width: 305px;
+	margin-left: 100px;
+	float: left;
+	margin-top: 65px;
+	opacity: .75;
+	color: white;
+}
+
+#prod_square_three h3{
+	background-color: white;
+	margin-top: 48px;
+	height: 30px;
+}
+
+#prod_square_three h2{
+	background-color: white;
+	margin-top: 210px;
+	height: 33px;
+}
+
+/* box 4 Carousel*/
+
+#box_four {
+	clear: both;
+	height: 570px;
+	background-color: white;
+	margin-top: 40px;
+}
+
+#box_four h1:first-child {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 53px;
+	text-align: center;
+	padding-top: 0px;
+	color: black;
+}
+
+#wrapper {
+    width:780px;
+    height:400px;
+    position:relative;
+    overflow:hidden;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+#slides {
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+}
+
+#slides div {
+    width:780px;
+    height:100%;
+    float:left;
+}
+
+#wrapper .slide {
+	float: left;
+	list-style-type: none;
+	width: 780px;
+	height: 400px;
+}
+
+.previous {
+	margin-top: 200px;
+    float: left;
+    margin-left: 150px;
+    font-size: 50px;
+}
+
+.next{
+	float: right;
+    margin-top: 200px;
+    margin-right: 150px;
+    font-size: 50px;
+}
+
+/* Form */
+
+#box_five #drop_header h1 {
+	color: white;
+}
+
+#box_five {
+	margin-top: 60px;
+	height: 550px;
+	background-image: url("../images/pexels.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: right;
+
+}
+
+#box_five h1 {
+	margin-top: 150px;
+	margin-left: 50px;
+	float: left;
+	font-style: italic;
+	font-size: 53px;
+	text-align: left;
+	color: white;
+	text-align: center;
+	line-height: 75px;
+}
+
+#drop_header {
+	width: 530px;
+}
+
+#contact_form {
+	float; right;
+	width: 400px;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: 50px;
+	padding-top: 150px;
+}
+
+form ul li {
+	margin-left: 50px;
+	padding-top: 15px;
+}
+
+input[name="firstName"] {
+	margin-left: 27px;
+}
+
+input[name="lastName"] {
+	margin-left: 29px;
+}
+
+input[name="email"]	{
+	margin-left: 60px;
+}
+
+input[name="message"]	{
+	margin-left: 43px;
+}
+
+input[name="password"]	{
+	margin-left: 37px;
+}
+
+input[name="submit"]	{
+	margin-top: 20px;
+	width: 60px;
+}
+
+li select {
+	margin-left: 20px;
+}
+
+/* Footer */
+
+footer {
+	background-color: black;
+	height: 250px;
+	color: white;
+	text-align: center;
+}
+
+footer h3 {
+	padding-top: 80px;
+	font-size: 14px;
+}
+
+#social_icons {
+	margin-top: 35px;
+}
+
+
+
+
+
+
